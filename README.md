@@ -18,7 +18,7 @@
 ## install
 ##### 1. Clone This Repository
 ```
-$ git clone https://github.com/Ibrahim-97/Mern.git
+$ git clone https://github.com/Ibrahim-97/Mern-App.git
 ```
 ##### 2. Install Dependencies
 ```
