@@ -3,6 +3,10 @@ const dotenv = require('dotenv')
 const DBconnection = require('./config/Database')
 
 
+// Route Pathes
+const usersRoute = require('./routes/users')
+
+
 // initialize app
 const app = express()
 
@@ -19,7 +23,7 @@ app.use(express.static('./public'))
 app.set('view engine', 'ejs')
 
 // Routes
-
+app.use('/users', usersRoute)
 // All  Other Routes will hit this route
 app.get('*',(req, res) => {
     return res.render('app')
