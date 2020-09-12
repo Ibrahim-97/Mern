@@ -9,12 +9,12 @@
 
 #### Other Dependencies
 - [TailwindCSS](https://tailwindcss.com/) Css Framework
-- [Axios]() Javascript Data Fetch Tool
+- [Axios](https://www.npmjs.com/package/axios) Javascript Data Fetch Tool
 - [Lodash](https://lodash.com/) Javascript Librarey
 - [EJS](https://ejs.co/) Template Engine
 - [Mongoose](https://mongoosejs.com/) for MongoDB Connection
 - [dotenv](https://www.npmjs.com/package/dotenv) For Environment variables
-
+- [Laravel Mix](https://laravel-mix.com/) to compile React and TailwindCss 
 #### Preview
 ![App Preview](https://raw.githubusercontent.com/Ibrahim-97/Mern-App/master/public/imgs/MERN_Starter_-_2020-09-11_14.25.42.png)
 
