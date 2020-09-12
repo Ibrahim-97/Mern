@@ -1,5 +1,5 @@
 # MERN App
-> This is Mern Stack Boilerplate App - [Live Preview](https://mern-starter-ap.herokuapp.com/)
+> This is Mern Stack Boilerplate App
 
 ### Main Dependencies
 - [MongoDB](https://www.mongodb.com/) Database
