@@ -8,11 +8,11 @@ module.exports = async () => {
             useNewUrlParser: true,
             useUnifiedTopology: true
         })
-        console.log(`DB Connected... ${DB.connection.host}`)
+        console.log(`DB Connected... ${DB.connection.host}`.green.underline)
 
     } catch (error) {
 
-        console.log(error)
+        console.log(error.red)
     }
 
 }
