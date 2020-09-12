@@ -15,7 +15,7 @@
 - [Mongoose](https://mongoosejs.com/) for MongoDB Connection
 - [dotenv](https://www.npmjs.com/package/dotenv) For Environment variables
 - [Laravel Mix](https://laravel-mix.com/) to compile React and TailwindCss 
-#### Preview
+#### App Image
 ![App Preview](https://raw.githubusercontent.com/Ibrahim-97/Mern-App/master/public/imgs/MERN_Starter_-_2020-09-11_14.25.42.png)
 
 ---
