@@ -1,19 +1,19 @@
 # MERN App
-> This is Mern Stack Starter App
+> This is Mern Stack Boilerplate App
 
 ### Main Dependencies
-- MongoDB Database
-- Express Back-End Framework
-- React.Js Front-End Javascript Frameword + React Router
-- Node.js Back-End Language
+- [MongoDB](https://www.mongodb.com/) Database
+- [Express](http://expressjs.com/) Back-End Framework
+- [React.Js](https://ar.reactjs.org/) Front-End Javascript Frameword + React Router
+- [Node.js](https://nodejs.org/) Back-End Language
 
 #### Other Dependencies
-- TailwindCSS Css Framework
-- Axios Javascript Data Fetch Tool
-- Lodash Javascript Librarey
-- EJS Template Engine
-- Mongoose for MongoDB Connection
-- dotenv For Environment variables
+- [TailwindCSS](https://tailwindcss.com/) Css Framework
+- [Axios]() Javascript Data Fetch Tool
+- [Lodash](https://lodash.com/) Javascript Librarey
+- [EJS](https://ejs.co/) Template Engine
+- [Mongoose](https://mongoosejs.com/) for MongoDB Connection
+- [dotenv](https://www.npmjs.com/package/dotenv) For Environment variables
 
 ## install
 ##### 1. Clone This Repository
@@ -25,7 +25,7 @@ $ git clone https://github.com/Ibrahim-97/Mern-App.git
 $ npm install
 ```
 ## Usage
-Rename ".env.example" to ".env" and Update values/Settings to your Own.
+Rename `.env.example` to `.env` and Update values/Settings to your Own.
 
 Code Your Application, Happy Coding :)
 
