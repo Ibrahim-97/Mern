@@ -12,7 +12,7 @@ function Welcome() {
                     <span className="text-6xl text-white"><h1>N</h1></span>
                 </div>
                 <div className="px-6 py-6 text-center">
-                    <div className="font-bold text-2xl mb-2 text-blue-500 font-mono">Welcome To ( M E R N ) Stack</div>
+                    <div className="font-bold text-2xl mb-2 text-blue-500 font-mono">Welcome To ( M E R N ) Stack 2020</div>
                     <img src="/imgs/logo.png" />
                     <p className="text-gray-700 text-base">
                         This is MERN Stack Starter Project Happy Coding :)

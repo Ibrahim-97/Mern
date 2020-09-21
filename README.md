@@ -15,6 +15,7 @@
 - [Mongoose](https://mongoosejs.com/) for MongoDB Connection
 - [dotenv](https://www.npmjs.com/package/dotenv) For Environment variables
 - [Laravel Mix](https://laravel-mix.com/) to compile React and TailwindCss 
+- [Concurrently](https://www.npmjs.com/package/concurrently) to Run multiple commands concurrently, run node server compile react code
 #### App Image
 ![App Preview](https://raw.githubusercontent.com/Ibrahim-97/Mern-App/master/public/imgs/MERN_Starter_-_2020-09-11_14.25.42.png)
 
@@ -28,6 +29,10 @@ $ git clone https://github.com/Ibrahim-97/Mern.git
 ```
 $ npm install
 ```
+##### 3. Compile tailwindsCss Code
+```
+$ npm run mix:css
+```
 ## Usage
 Rename `.env.example` to `.env` and Update values/Settings to your Own.
 
@@ -35,20 +40,14 @@ Code Your Application, Happy Coding :)
 
 ## Run App
 ```
-# run in dev Mode
+# run in dev Mode watch (node code & react code)
 $ npm run dev
 
 # run in prod Mode
 $ npm start
 
-# Compile React Code
-$ npm run react-d
-
-# Compile React Code with watch for changes
-$ npm run react-w
-
 # build React Code for prod
-$ npm run react-b
+$ npm run mix:build
 ```
 
 - version: 1.0.0

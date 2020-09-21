@@ -5,16 +5,18 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": "nodemon server.js",
-    "react-d": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
-    "react-w": "npm run react-d -- --watch",
-    "react-b": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    "server": "nodemon server.js",
+    "mix:react": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "mix:build": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "mix:css": "npx tailwindcss build ./src/main.css -o ./public/css/main.css",
+    "dev": "concurrently -n node,react \"npm run server\" \"npm run mix -- --watch\""
   },
   "author": "Ibrahim Saber",
   "license": "MIT",
   "devDependencies": {
     "@babel/preset-react": "^7.10.4",
     "colors": "^1.4.0",
+    "concurrently": "^5.3.0",
     "cross-env": "^7.0.2",
     "laravel-mix": "^5.0.5",
     "nodemon": "^2.0.4"

@@ -32901,7 +32901,7 @@ function Welcome() {
     className: "px-6 py-6 text-center"
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "font-bold text-2xl mb-2 text-blue-500 font-mono"
-  }, "Welcome To ( M E R N ) Stack"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+  }, "Welcome To ( M E R N ) Stack 2020"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "/imgs/logo.png"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     className: "text-gray-700 text-base"
@@ -32947,26 +32947,14 @@ react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEB
 
 /***/ }),
 
-/***/ "./src/main.css":
-/*!**********************!*\
-  !*** ./src/main.css ***!
-  \**********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
-
 /***/ 0:
-/*!********************************************!*\
-  !*** multi ./src/index.jsx ./src/main.css ***!
-  \********************************************/
+/*!*****************************!*\
+  !*** multi ./src/index.jsx ***!
+  \*****************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! D:\@work_space\MERN\todo-list\src\index.jsx */"./src/index.jsx");
-module.exports = __webpack_require__(/*! D:\@work_space\MERN\todo-list\src\main.css */"./src/main.css");
+module.exports = __webpack_require__(/*! D:\@work_space\MERN\Mern\src\index.jsx */"./src/index.jsx");
 
 
 /***/ })
